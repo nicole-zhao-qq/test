@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-git-backstage"
+  description: An example of a repository creation.
+  annotations:
+    github.com/project-slug: guest/test
+
+spec:
+  type: service
+  owner: "user:default/guest"
+  lifecycle: experimental
